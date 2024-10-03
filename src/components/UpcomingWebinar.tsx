@@ -13,7 +13,7 @@ function UpcomingWebinar() {
       </div>
 
       <div className='text-center py-5'>
-        <Link href={"/courses"} className='px-5 py-2 bg-slate-50 text-black rounded-lg'>
+        <Link href="#" className='px-5 py-2 bg-slate-50 text-black rounded-lg'>
           View All
         </Link>
       </div>

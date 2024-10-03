@@ -28,7 +28,7 @@ function FeaturedCourses() {
                 <div className='p-4 flex flex-wrap flex-col justify-center gap-3'>
                   <p className='text-2xl font-semibold text-center'>{item.title} </p>
                   <p className='text-center'>{item.description} </p>
-                  <div className='text-center'> <Link href={`/courses/${item.slug}`} className='px-5 py-2  bg-slate-50 text-black rounded-lg'>Learn more </Link></div>
+                  <div className='text-center'> <Link href="#" className='px-5 py-2  bg-slate-50 text-black rounded-lg'>Learn more </Link></div>
                 </div>
               </BackgroundGradient>
             </div>
