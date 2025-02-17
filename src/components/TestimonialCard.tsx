@@ -1,9 +1,8 @@
-"use client";
+"use client"
 
-import React, { useEffect, useState } from "react";
-import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
+import React, {useEffect, useState} from "react"
+import {InfiniteMovingCards} from "./ui/infinite-moving-cards"
 function TestimonialCard() {
-
   const testimonials = [
     {
       quote:
@@ -23,8 +22,7 @@ function TestimonialCard() {
       title: "A Dream Within a Dream",
     },
     {
-      quote:
-        "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
+      quote: "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
       name: "Jane Austen",
       title: "Pride and Prejudice",
     },
@@ -34,20 +32,12 @@ function TestimonialCard() {
       name: "Herman Melville",
       title: "Moby-Dick",
     },
-  ];
-
-
+  ]
 
   return (
-    <div className="h-[40rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
-
-      <h2 className="text-center text-3xl md:text-5xl font-bold pb-6">Hear Our Harmoni</h2>
-
-      <InfiniteMovingCards
-        items={testimonials}
-        direction="right"
-        speed="slow"
-      />
+    <div className='h-[40rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden'>
+      <h2 className='text-center text-3xl md:text-5xl font-bold pb-6'>Hear Our Harmoni</h2>
+      <InfiniteMovingCards items={testimonials} direction='right' speed='slow' />
     </div>
   )
 }
